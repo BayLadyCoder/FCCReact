@@ -3,7 +3,7 @@ const JSX = <h1>Hello JSX!</h1>
 
 
 // Create a Complex JSX Element
-const JSX =
+const JSX = (
     <div>
         <h1>Header</h1>
         <p>Paragraph</p>
@@ -12,4 +12,4 @@ const JSX =
             <li>list 2</li>
             <li>list 3</li>
         </ul>>
-</div>
+</div>);

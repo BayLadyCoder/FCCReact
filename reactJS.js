@@ -243,7 +243,6 @@ class TypesOfFood extends React.Component {
 
 
 // Render a Class Component to the DOM
-
 class TypesOfFood extends React.Component {
     constructor(props) {
         super(props);
@@ -263,3 +262,21 @@ class TypesOfFood extends React.Component {
 
 // change code below this line
 ReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'));
+
+
+
+
+
+// Write a React Component from Scratch
+class MyComponent extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <h1>My First React Component!</h1>
+            </div>
+        );
+    }
+};
+
+ReactDOM.render(<MyComponent />, document.getElementById('challenge-node'));

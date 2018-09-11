@@ -13,3 +13,12 @@ const JSX = (
             <li>list 3</li>
         </ul>>
 </div>);
+
+// Add Comments in JSX
+const JSX = (
+    <div>
+        {/*Comment in JSX*/}
+        <h1>This is a block of JSX</h1>
+        <p>Here's a subtitle</p>
+    </div>
+);
